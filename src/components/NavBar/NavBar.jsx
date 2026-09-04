@@ -4,13 +4,17 @@ const NavBar = () => {
   return (
     <nav>
       <ul>
-        <Link to="/">
-          <li>Home</li>
-        </Link>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
 
-        <Link to="/pokemon">
-          <li>Pokemon</li>
-        </Link>
+        <li>
+          <Link to="/pokemon">Pokemon</Link>
+        </li>
+
+        <li>
+          <Link to="/pokemon/new">Add Pokemon</Link>
+        </li>
       </ul>
     </nav>
   );
